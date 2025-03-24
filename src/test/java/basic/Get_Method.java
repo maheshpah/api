@@ -14,5 +14,6 @@ public class Get_Method  {
         requestSpecification.response();
         Response response=requestSpecification.get("/objects");
         System.out.print(response.prettyPrint());
+
     }
 }
